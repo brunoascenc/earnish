@@ -31,6 +31,8 @@ section#home nav {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0px 3.5rem 0 3.5rem;
+  border-bottom: solid 1px #c4c0c0;
+  margin: 0 auto;
 }
 
 section#home nav h1 {
@@ -38,6 +40,9 @@ section#home nav h1 {
   font-size: 1.9rem;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 1px;
+  padding: 0 2rem 0 2rem;
+  border: 1px solid #c4c0c0;
+  border-bottom: none;
 }
 
 section#home nav ul {
@@ -73,7 +78,6 @@ section#home main {
 
 section#home main svg {
   width: 25%;
-  margin-left: -105px;
 }
 
 section#home main #circle {
@@ -107,7 +111,6 @@ section#home main #circle {
 }
 
 section#home main #sm-circle1, section#home main #sm-circle2, section#home main #sm-square {
-  /* animation: sm-circle 2s ease-in-out infinite alternate; */
   -webkit-transform-origin: center;
           transform-origin: center;
 }
@@ -135,9 +138,9 @@ section#home main #sm-circle1, section#home main #sm-circle2, section#home main 
 }
 
 section#home main .landing-text {
-  border-radius: 15px;
-  width: 560px;
   padding: 55px;
+  margin-right: 95px;
+  background-color: red;
 }
 
 section#home main .landing-text p {
@@ -145,6 +148,7 @@ section#home main .landing-text p {
   font-size: 1.8rem;
   margin-bottom: 50px;
   letter-spacing: -1px;
+  width: 350px;
 }
 
 section#home main .landing-text a {
